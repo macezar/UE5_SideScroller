@@ -17,3 +17,6 @@ Another issue I faced when dealing with the ability system is that the game uses
 
 For those changes, in each GA_Ability_File, check the direction segment and replace the reference from the camera to the actor.
 ![image](https://user-images.githubusercontent.com/5649304/191574061-398642eb-fd71-482c-9418-b0ba852f2468.png)
+
+### Weapon Fire:
+There's a pre-define enum in the code that changes how the firing works. I've changed from CameraTowardFocus to WeaponForward. That makes weapon fires to the same direction the character is facing.
