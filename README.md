@@ -10,7 +10,7 @@ Two approaches to movement.
 I went with the second option, as to allow the inputs when needed, and because I plan to use volumes to change how the camera works during certain parts of the game. A good example of this would be Nier, where you have the normal 3d movement which changes to 2.5D when walking into certain areas of the map.
 
 ### Facing direction:
-Added a new variable that can be accessed by blueprint that allows the pawn to turn towards the movement instead of always facing the same direction than the camera.
+Go to B_Hero_ShooterMannequin, and change some Character Movement settings. Enable Orient Rotation To Movement in the Character Movement Component and disable Use Controller Rotation Yaw in the Character Defaults.
 
 ### Abilities:
 Another issue I faced when dealing with the ability system is that the game uses the camera instead of the pawn to calculate the direction. Works fine if you are playing a 3d fps game which the character is always facing the same direction of the camera. Not so much when you are not.
