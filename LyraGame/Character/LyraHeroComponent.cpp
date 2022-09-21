@@ -4,8 +4,6 @@ ULyraHeroComponent::ULyraHeroComponent(const FObjectInitializer& ObjectInitializ
 	AbilityCameraMode = nullptr;
 	bPawnHasInitialized = false;
 	bReadyToBindInputs = false;
-	//Changed to False. Forces the pawn to orientate towards the movement, instead of the camera.
-	bUseControllerRotationYaw = false;
 }
 
 
