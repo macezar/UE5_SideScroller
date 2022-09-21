@@ -7,7 +7,7 @@ Two approaches to movement.
 - Remove the input from the input mapping, that way you can only input left or right when moving the pawn.
 - Add a new variable to control if the movement is permited on Y plane.
 
-I went with the second option, as to allow the inputs when needed, and and because I plan to use volumes to change how the camera works during certain parts of the game. A good example of this would be Nier, where you have the normal 3d movement which changes to 2.5D when walking into certain areas of the map.
+I went with the second option, as to allow the inputs when needed, and because I plan to use volumes to change how the camera works during certain parts of the game. A good example of this would be Nier, where you have the normal 3d movement which changes to 2.5D when walking into certain areas of the map.
 
 ### Facing direction:
 Added a new variable that can be accessed by blueprint that allows the pawn to turn towards the movement instead of always facing the same direction than the camera.
